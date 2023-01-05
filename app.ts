@@ -13,6 +13,8 @@ const start = async () => {
   app.get('/', (req, res)=>{
     res.send('oi')
   })
+
+  #s
   
   app.use(admin.options.rootPath, adminRouter)
 
