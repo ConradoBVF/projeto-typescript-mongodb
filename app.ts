@@ -14,7 +14,6 @@ const start = async () => {
     res.send('oi')
   })
 
-  #s
   
   app.use(admin.options.rootPath, adminRouter)
 
